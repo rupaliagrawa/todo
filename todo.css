@@ -1,0 +1,369 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.upper-container{
+    width:50%;
+    height:10%;
+    margin:50px auto;
+    position:relative;
+    
+    
+}
+
+.upper-container1{
+    width:45%;
+    height:100%;
+    padding-top:20px;
+    
+}
+
+#tasks{
+    
+   margin-right: 1px;
+   font-weight: bold;
+   font-size: 40px;
+  
+    
+}
+
+#lists{
+    font-size:2.5rem;
+    margin-left: 5px;
+    opacity:0.5;
+    position: absolute;
+    
+    
+}
+.upper-container2{
+    width:30%;
+    height: 100%;
+    padding-top: 20px;
+   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top:0;
+    right: 0;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 15px;
+    opacity:0.5;
+    
+}
+
+
+    
+    
+    
+    
+   
+
+
+
+
+.card1{
+    margin-top: 10px;
+    border:1.5px solid #FF1700;
+    height:50vh;
+    width:16%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin:auto ; 
+    
+}
+
+
+.card2{
+    margin-top: 10px;
+    border:1.5px solid #FF1700;
+    height:50vh;
+    width:16%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin:auto ;
+   
+    
+    
+}
+
+.card3{
+    margin-top: 10px;
+    border:1.5px solid #FF1700;
+    height:50vh;
+    width:16%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin:auto ;
+   
+    
+    
+}
+
+.div1{
+    position:absolute;
+    top:15px;
+    right:0;
+    font-size: 20px;
+    width:85%;
+    text-align: left;
+    height: 15%;
+    color: rgb(244, 42, 42);
+    border-bottom: 1px solid black;
+   
+}
+
+.div2{
+    width: 90%;
+    height:10px;
+    font-size:17px;
+    color:#FF0000; 
+    text-align: right;
+    position:absolute;
+    top:35%;
+    font-weight:bold;
+    text-decoration: line-through;
+    margin-left: 2px;
+
+
+}
+
+.div3{
+    width:90%;
+    height: 10%;
+    position: absolute;
+    top:52%;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 2px;
+   
+}
+
+#check{
+    width: 20px;
+    height:18px;
+    margin-left: 8px;
+}
+
+
+.cards{
+    display:flex;
+    margin:auto;
+    justify-content:space-evenly;
+}
+
+
+.notshow{
+    filter:blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    position:absolute;
+    left:37%;
+    top:30%;
+    height:32vh;
+    width: 27%;
+    border:1.5px solid red;
+    border-radius: 10px;
+    color:#FF0000;
+    font-size:18px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 10px grey;
+
+}
+
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 4px;
+    width:85%;
+    height:27%;
+    border:1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+
+}
+
+.pop-up-button{
+    width: 23%;
+    height:20%;
+    margin-top: 18px;
+    color:white;
+    background-color: #FF0000;
+    border:none;
+    position:absolute;
+    left:119px;
+    font-size:18px;
+    border-radius:20px ;
+    
+}
+
+.style{
+    width:150px;
+    position: absolute;
+    right:65%;
+    bottom:90%;
+    background:gray;
+    
+}
+
+.style1{
+    width:150px;
+    position: absolute;
+    left:65%;
+    bottom:90%;
+    background:gray;
+   
+}
+
+#tasks1{
+   
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+    padding: 20px;
+   
+   
+}
+
+.upper-container5{
+    width:50%;
+    height:10%;
+    margin:50px auto;
+    position:relative;
+    left:50px; 
+}
+
+.contain{
+    display: flex;
+    justify-content: space-around;   
+}
+
+#circle1{
+    position:relative;
+    left: 45%;
+}
+
+.back{
+    position:absolute;
+    bottom:10px;
+    left:50px;
+    color: grey;
+    font-size: 20px;
+}
+
+.card4{
+    margin-top: 30%;
+    border:1.5px solid #FF1700;
+    height:59vh;
+    width:26%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin:auto ; 
+   
+}
+.single-card{
+    margin-top: 20px;
+}
+
+.d1{
+    position:absolute;
+    top:30px;
+    left:30%;
+    font-size: 20px;
+    width:70%;
+    text-align: left;
+    height: 13%;
+    color: rgb(244, 42, 42);
+    border-bottom: 1.2px solid black;
+   
+}
+.d2{
+    width: 72%;
+    height:10px;
+    font-size:17px;
+    color:#FF0000; 
+    text-align: right;
+    position:absolute;
+    left:10px;
+    top:35%;
+    font-weight:bold;
+    text-decoration: line-through;
+    margin-right: 30%;
+
+
+}
+
+.d3{
+    width:70%;
+    height: 10%;
+    position: absolute;
+    top:50%;
+    left:30px;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+
+   
+}
+
+.down-circle{
+    position:absolute;
+    top:85%;
+    left:85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
